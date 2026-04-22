@@ -1,0 +1,13 @@
+.henrik-profile {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+
+.henrik-image {
+    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 50px;
+}
