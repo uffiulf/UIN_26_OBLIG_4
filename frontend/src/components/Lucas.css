@@ -1,5 +1,5 @@
 .lucas {
-  background-color: #4a4a4a;
+  background-color: #252525;
   color: #ffffff;
   padding: 4rem;
   font-family: sans-serif;
@@ -39,7 +39,7 @@
 
 .lucas__image img {
   width: 300px;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
   background: #ccc;
 }
