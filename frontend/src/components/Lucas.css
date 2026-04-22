@@ -1,0 +1,64 @@
+.lucas {
+  background-color: #252525;
+  color: #ffffff;
+  padding: 4rem;
+  font-family: sans-serif;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.lucas__name {
+  font-size: 3rem;
+  font-weight: 700;
+  border-left: 5px solid #00c2ff;
+  padding-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.lucas__profile p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.lucas__profile a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.lucas__profile a:hover {
+  text-decoration: underline;
+}
+
+.lucas__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lucas__image img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  background: #ccc;
+}
+
+.lucas__assignments {
+  grid-column: 1 / -1; 
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.lucas__assignments article h3 {
+  color: #00c2ff;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.lucas__assignments article p {
+  color: #ddd;
+  line-height: 1.5;
+}

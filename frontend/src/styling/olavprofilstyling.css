@@ -1,0 +1,16 @@
+
+.olav-profil{
+    border: 1px solid black;
+    max-width: calc(50% - 2rem);
+    height: 800px;
+    overflow: hidden;
+}
+
+.olav-profil img{
+    width: 800px;
+    height: 600px;
+    object-fit: cover;
+    object-position: right;
+    
+
+}
