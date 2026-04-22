@@ -8,9 +8,13 @@ function App() {
 
   return (
     <>
-    <Header />
-    <OlavProfil />
+    <main>
+      <Header />
+        <section>
+          <OlavProfil />
+        </section>
     <Assignments />
+    </main>
     </>
   )
 }
