@@ -1,8 +1,20 @@
 .henrik-profile {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    margin: 0 auto;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 20px auto;
+    padding: 40px;
+    max-width: 300px;
+    background-color: rgb(245, 232, 159);
+    color: black;
+    border-radius: 50px;
+}
+
+.henrik-profile h2{
+    color: black;
+    text-decoration-line: underline;
+    align-self: center;
 }
 
 
@@ -10,4 +22,11 @@
     max-width: 200px;
     margin: 0 auto;
     border-radius: 50px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.henrik-profile-category{
+    text-decoration-line: underline;
+    font-weight: 500;
+    
 }
