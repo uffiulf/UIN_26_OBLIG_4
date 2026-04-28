@@ -61,3 +61,7 @@
   color: #ddd;
   line-height: 1.5;
 }
+
+.lucas__profile a:hover {
+  color: blue;
+}
