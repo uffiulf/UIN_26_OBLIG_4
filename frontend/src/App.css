@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -182,3 +184,22 @@
     border-right-color: var(--border);
   }
 }
+/*Mobil-ver*/
+section{
+  display: grid;
+  grid-column: 1;
+}
+
+
+
+/*Desktop-ver*/
+@media (min-width: 768px){
+section {
+ display: flex;
+ flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px
+}
+
+}
+

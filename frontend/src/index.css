@@ -109,3 +109,15 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+header{
+  margin-bottom: 5rem;
+}
+
+main{
+  margin-top: 1rem;
+}
+
+section{
+  margin-bottom: 3rem;  
+}
