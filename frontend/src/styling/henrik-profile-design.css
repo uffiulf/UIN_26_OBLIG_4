@@ -25,8 +25,21 @@
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
+.henrik-image:hover{
+    transform: translateY(-7px);
+
+}
+
 .henrik-profile-category{
     text-decoration-line: underline;
     font-weight: 500;
     
+}
+
+.henrik-profile-info{
+    transition: transform 0.2s ease;
+}
+
+.henrik-profile-info:hover{
+    transform: scale(1.1);
 }
